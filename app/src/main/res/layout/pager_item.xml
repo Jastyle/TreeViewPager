@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    >
+    <com.jastyle.treeviewpager.treeView.TreeView
+        android:id="@+id/tree_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:fadingEdge="none"
+        android:scrollbars="none"
+        android:focusable="true"
+        android:childDivider="@null"
+        android:focusableInTouchMode="true"
+        android:groupIndicator="@null"
+        android:smoothScrollbar="true"
+        android:divider="@null" />
+
+</LinearLayout>

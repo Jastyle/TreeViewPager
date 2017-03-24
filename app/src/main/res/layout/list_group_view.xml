@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/group_item_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/group_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="15dp"
+        android:includeFontPadding="false"
+        android:maxEms="11"
+        android:text="某项指标情况分心结果标题"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/group_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/expand_indicator"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="22dp"/>
+
+    <ImageView
+        android:id="@+id/expand_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
